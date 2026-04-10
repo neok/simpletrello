@@ -13,6 +13,9 @@ func Open(dsn string) (*sql.DB, error) {
 		return nil, err
 	}
 	db.SetMaxOpenConns(1)
+	if _, err = db.Exec("PRAGMA foreign_keys = ON"); err != nil {
+		return nil, err
+	}
 	if err = db.Ping(); err != nil {
 		return nil, err
 	}
