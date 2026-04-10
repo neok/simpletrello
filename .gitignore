@@ -1,0 +1,7 @@
+data/
+ui/static/assets/
+ui/static/index.html
+frontend/node_modules/
+frontend/dist/
+PLAN.md
+claude.md
