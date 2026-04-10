@@ -1,6 +1,8 @@
 # SimpleTrello
 
 A minimal Trello-like board. Go backend, React frontend, SQLite database.
+<img width="1316" height="544" alt="Screenshot 2026-04-10 at 16 12 53" src="https://github.com/user-attachments/assets/5c97c8f0-e4a1-4478-936c-8fbc61df92de" />
+
 
 ## Stack
 
